@@ -36,14 +36,14 @@ let myBeat6;
 
 function preload() {
   for (let i = 0; i <= 5; i++) {
-    drawings[i] = loadImage("assets/heart_" + i + ".JPG")
+    drawings[i] = loadImage("assets/heart_" + i + ".jpg")
 
-     myImg = loadImage("heart_0.JPG")
-     myImg1 = loadImage("heart_1.JPG")
-     myImg2 = loadImage("heart_2.JPG")
-     myImg3 = loadImage("heart_3.JPG")
-     myImg4 = loadImage("heart_4.JPG")
-     myImg5 = loadImage("heart_5.JPG")
+     myImg = loadImage("assets/heart_0.jpg")
+     myImg1 = loadImage("assets/heart_1.jpg")
+     myImg2 = loadImage("assets/heart_2.jpg")
+     myImg3 = loadImage("assets/heart_3.jpg")
+     myImg4 = loadImage("assets/heart_4.jpg")
+     myImg5 = loadImage("assets/heart_5.jpg")
 
     myBeat = loadSound("sounds/sound_1.mp3")
     myBeat2 = loadSound("sounds/sound_2.mp3")
