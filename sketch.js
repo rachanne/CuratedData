@@ -38,12 +38,12 @@ function preload() {
   for (let i = 0; i <= 5; i++) {
     drawings[i] = loadImage("assets/heart_" + i + ".JPG")
 
-     myImg = loadImage("Documents/CuratedData/assets/heart_0.JPG")
-     myImg1 = loadImage("Documents/CuratedData/assets/heart_1.JPG")
-     myImg2 = loadImage("Documents/CuratedData/assets/heart_2.JPG")
-     myImg3 = loadImage("Documents/CuratedData/assets/heart_3.JPG")
-     myImg4 = loadImage("Documents/CuratedData/assets/heart_4.JPG")
-     myImg5 = loadImage("Documents/CuratedData/assets/heart_5.JPG")
+     myImg = loadImage("heart_0.JPG")
+     myImg1 = loadImage("heart_1.JPG")
+     myImg2 = loadImage("heart_2.JPG")
+     myImg3 = loadImage("heart_3.JPG")
+     myImg4 = loadImage("heart_4.JPG")
+     myImg5 = loadImage("heart_5.JPG")
 
     myBeat = loadSound("sounds/sound_1.mp3")
     myBeat2 = loadSound("sounds/sound_2.mp3")
